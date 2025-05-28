@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neel Youth Digitech - Digital Marketing, IT Services & Online Courses</title>
+    <meta name="description" content="Leading digital agency offering innovative IT services, digital marketing solutions, and professional online courses. Empowering youth with technology and digital skills.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Neel Youth Digitech - Digital Marketing, IT Services & Online Courses">
+    <meta property="og:description" content="Leading digital agency offering innovative IT services, digital marketing solutions, and professional online courses. Empowering youth with technology and digital skills.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Neel Youth Digitech - Digital Marketing, IT Services & Online Courses">
+    <meta property="twitter:description" content="Leading digital agency offering innovative IT services, digital marketing solutions, and professional online courses. Empowering youth with technology and digital skills.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-3d">
+                    <img src="attached_assets/logo.png" alt="Neel Youth Digitech" class="logo-img">
+                </div>
+                <span class="logo-text">Neel Youth Digitech</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge floating">
+                    <i class="fas fa-rocket"></i>
+                    <span>#1 Digital Learning Platform</span>
+                </div>
+                <h1 class="hero-title">
+                    Master <span class="gradient-text">Digital Skills</span> & 
+                    <span class="text-blue">Transform</span> Your Career
+                </h1>
+                <p class="hero-description">
+                    Join thousands of students learning Digital Marketing, IT Services, and earning online with our industry-expert courses and practical training.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('courses')">
+                        <i class="fas fa-play"></i>
+                        Start Learning Now
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                        Book Free Demo
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="5000">0</span>
+                        <span class="stat-label">Students Trained</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="15">0</span>
+                        <span class="stat-label">Expert Trainers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="98">0</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-banner-container">
+                    <div class="hero-banner">
+                        <img src="attached_assets/website banner (1)_page-0001.jpg" alt="Online Earning Opportunity" class="banner-img">
+                        <div class="banner-overlay">
+                            <div class="overlay-content">
+                                <h3>Online Earning Opportunity</h3>
+                                <p>Start Your Digital Journey Today</p>
+                                <div class="cta-buttons">
+                                    <button class="btn btn-primary btn-sm" onclick="scrollToSection('contact')">
+                                        <i class="fas fa-envelope"></i>
+                                        Contact Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Decorative Elements -->
+                    <div class="hero-decorations">
+                        <div class="decoration-circle circle-1"></div>
+                        <div class="decoration-circle circle-2"></div>
+                        <div class="decoration-circle circle-3"></div>
+                    </div>
+                </div>
+                
+                <div class="floating-elements">
+                    <div class="floating-card card-1">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Expert Training</span>
+                            <span class="card-desc">Learn from Industry Experts</span>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Career Growth</span>
+                            <span class="card-desc">Boost Your Professional Skills</span>
+                        </div>
+                    </div>
+                    <!-- <div class="floating-card card-3">
+                        <div class="card-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Modern Tech</span>
+                            <span class="card-desc">Latest Digital Tools & Techniques</span>
+                        </div>
+                    </div> -->
+                    <div class="floating-card card-4">
+                        <div class="card-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Success Rate</span>
+                            <span class="card-desc">98% Student Success</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Achievement Badges -->
+                <!-- <div class="achievement-badges">
+                    <div class="achievement-badge badge-1">
+                        <div class="badge-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="badge-info">
+                            <span class="badge-number">5000+</span>
+                            <span class="badge-label">Students</span>
+                        </div>
+                    </div>
+                    <div class="achievement-badge badge-2">
+                        <div class="badge-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="badge-info">
+                            <span class="badge-number">4.9</span>
+                            <span class="badge-label">Rating</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our <span class="gradient-text">Services</span></h2>
+                <p class="section-subtitle">Comprehensive digital solutions for the modern world</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-megaphone"></i>
+                    </div>
+                    <h3>Digital Marketing Agency</h3>
+                    <p>Complete digital marketing solutions including SEO, PPC, Social Media Marketing, and Content Strategy.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Search Engine Optimization</li>
+                        <li><i class="fas fa-check"></i> Social Media Management</li>
+                        <li><i class="fas fa-check"></i> PPC Campaign Management</li>
+                        <li><i class="fas fa-check"></i> Content Strategy</li>
+                    </ul>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>IT Services & Solutions</h3>
+                    <p>Custom software development, web applications, mobile apps, and technology consulting services.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Web Development</li>
+                        <li><i class="fas fa-check"></i> Mobile App Development</li>
+                        <li><i class="fas fa-check"></i> Cloud Solutions</li>
+                        <li><i class="fas fa-check"></i> Technical Support</li>
+                    </ul>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Online Learning Platform</h3>
+                    <p>Industry-relevant courses in Digital Marketing, Communication Skills, Share Market, and English Speaking.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Expert-Led Training</li>
+                        <li><i class="fas fa-check"></i> Practical Projects</li>
+                        <li><i class="fas fa-check"></i> Certification Support</li>
+                        <li><i class="fas fa-check"></i> Career Guidance</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="scrollToSection('courses')">Explore Courses</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Popular <span class="gradient-text">Courses</span></h2>
+                <p class="section-subtitle">Master in-demand skills with our comprehensive courses designed by industry experts.</p>
+            </div>
+            
+            <!-- Course Banner -->
+            <div class="course-banner">
+                <img src="attached_assets/website banner (3)_page-0001.jpg" alt="Course Offerings" class="banner-img">
+            </div>
+
+            <div class="courses-grid">
+                <div class="course-card bestseller">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Digital Marketing Course">
+                        <div class="course-badge">Bestseller</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Complete Digital Marketing</h3>
+                        <p>Master all aspects of digital marketing including SEO, social media, PPC, email marketing, and analytics.</p>
+                        <div class="course-details">
+                            <span><i class="fas fa-clock"></i> 40+ Hours</span>
+                            <span><i class="fas fa-certificate"></i> Certificate</span>
+                            <span><i class="fas fa-users"></i> 500+ Students</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="current-price">₹4,999</span>
+                            <span class="original-price">₹9,999</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="openEnrollmentModal('Complete Digital Marketing')">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card popular">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Communication Skills Course">
+                        <div class="course-badge">Popular</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Communication Skills</h3>
+                        <p>Enhance your verbal and non-verbal communication skills for professional and personal growth.</p>
+                        <div class="course-details">
+                            <span><i class="fas fa-clock"></i> 25+ Hours</span>
+                            <span><i class="fas fa-certificate"></i> Certificate</span>
+                            <span><i class="fas fa-users"></i> 300+ Students</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="current-price">₹2,999</span>
+                            <span class="original-price">₹5,999</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="openEnrollmentModal('Communication Skills')">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card advanced">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Share Market Course">
+                        <div class="course-badge">Advanced</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Share Market Mastery</h3>
+                        <p>Learn technical analysis, fundamental analysis, and trading strategies for the stock market.</p>
+                        <div class="course-details">
+                            <span><i class="fas fa-clock"></i> 60+ Hours</span>
+                            <span><i class="fas fa-certificate"></i> Certificate</span>
+                            <span><i class="fas fa-users"></i> 200+ Students</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="current-price">₹6,999</span>
+                            <span class="original-price">₹12,999</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="openEnrollmentModal('Share Market Mastery')">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Goa Meetup Banner -->
+            <div class="meetup-banner">
+                <img src="attached_assets/website banner (2)_page-0001.jpg" alt="Goa Meetup - Hit 25K in Next 30 Days" class="banner-img">
+            </div>
+
+            <!-- Special Offer -->
+            <div class="special-offer">
+                <h3>Limited Time Offer!</h3>
+                <p>Get access to all courses for just ₹19,999 (Save ₹8,000)</p>
+                <button class="btn btn-white">Claim Offer Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About <span class="gradient-text">Neel Youth Digitech</span></h2>
+                    <p>We are a leading digital education platform dedicated to empowering individuals with practical skills for the digital economy. Our comprehensive approach combines industry expertise with hands-on training.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-label">Happy Students</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Courses</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Expert Trainers</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Success Rate</span>
+                        </div>
+                    </div>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <div>
+                                <h4>Expert-led courses with industry experience</h4>
+                                <p>Learn from professionals with years of experience</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <div>
+                                <h4>Practical projects and real-world applications</h4>
+                                <p>Hands-on learning with real projects</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <div>
+                                <h4>Career support and placement assistance</h4>
+                                <p>Get help with job placement and career guidance</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <div>
+                                <h4>Flexible learning schedules for working professionals</h4>
+                                <p>Study at your own pace with flexible timings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Modern workspace for digital learning">
+                    <div class="floating-achievement achievement-1">
+                        <i class="fas fa-trophy"></i>
+                        <div>
+                            <span>Award Winner</span>
+                            <small>Best Training Provider</small>
+                        </div>
+                    </div>
+                    <div class="floating-achievement achievement-2">
+                        <i class="fas fa-star"></i>
+                        <div>
+                            <span>5.0 Rating</span>
+                            <small>Student Reviews</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our <span class="gradient-text">Students Say</span></h2>
+                <p class="section-subtitle">Real feedback from our successful students</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The digital marketing course completely transformed my career. The instructors are knowledgeable and the practical approach helped me land my dream job."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b60d3b3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100" alt="Priya Sharma">
+                        <div>
+                            <h4>Priya Sharma</h4>
+                            <span>Digital Marketing Specialist</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excellent communication skills course! It boosted my confidence and helped me in presentations. Highly recommend to everyone."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100" alt="Rajesh Kumar">
+                        <div>
+                            <h4>Rajesh Kumar</h4>
+                            <span>Sales Manager</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The share market course gave me the confidence to start trading. The practical strategies and risk management techniques are invaluable."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100" alt="Anita Patel">
+                        <div>
+                            <h4>Anita Patel</h4>
+                            <span>Independent Trader</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <p class="section-subtitle">Ready to start your digital journey? Contact us today for a free consultation.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3>Send us a Message</h3>
+                        <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                        <form class="contact-form" onsubmit="handleContactSubmit(event)">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="courseInterest">Course Interest</label>
+                                <select id="courseInterest" name="courseInterest">
+                                    <option value="">Select a course</option>
+                                    <option value="digital-marketing">Digital Marketing</option>
+                                    <option value="english-speaking">English Speaking</option>
+                                    <option value="share-market">Share Market</option>
+                                    <option value="communication-skills">Communication Skills</option>
+                                    <option value="it-services">IT Services</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Get in touch with our team for any questions or support.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>neelyouthdigitechsolution@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7498081464</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Office Hours</h4>
+                                <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-3d">
+                            <img src="attached_assets/logo.png" alt="Neel Youth Digitech" width="35px">
+                        </div>
+                        <div>
+                            <h3>Neel Youth Digitech</h3>
+                            <p>Digital Solutions Provider</p>
+                        </div>
+                    </div>
+                    <p>Empowering individuals and businesses with cutting-edge digital solutions, comprehensive training programs, and innovative IT services.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Popular Courses</h4>
+                    <ul>
+                        <li><a href="#courses">Digital Marketing</a></li>
+                        <li><a href="#courses">English Speaking</a></li>
+                        <li><a href="#courses">Share Market</a></li>
+                        <li><a href="#courses">Communication Skills</a></li>
+                        <li><a href="#services">IT Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Digital Marketing</a></li>
+                        <li><a href="#services">IT Services</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#courses">Training & Courses</a></li>
+                        <li><a href="#contact">Consultation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Neel Youth Digitech. All rights reserved. | 
+                   <a href="#">Privacy Policy</a> | 
+                   <a href="#">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enrollment Modal -->
+    <div id="enrollmentModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeEnrollmentModal()">&times;</span>
+            <h2>Enroll in <span id="selectedCourse"></span></h2>
+            <p>Fill in your details to enroll in this course. We'll contact you with payment details.</p>
+            <form onsubmit="handleEnrollmentSubmit(event)">
+                <div class="form-group">
+                    <label for="enrollName">Full Name</label>
+                    <input type="text" id="enrollName" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="enrollEmail">Email</label>
+                    <input type="email" id="enrollEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="enrollPhone">Phone Number</label>
+                    <input type="tel" id="enrollPhone" name="phone" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Complete Enrollment</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div id="notification" class="notification"></div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
